@@ -146,5 +146,5 @@ setInterval(() => {
     carregarJogos();
 }, 5000);
 
-// Alterna os slides da TV a cada 10 segundos
-setInterval(alternarSlides, 10000);
+// Alterna os slides da TV a cada 20 segundos
+setInterval(alternarSlides, 20000);
