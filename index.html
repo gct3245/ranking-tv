@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking Sinuca 2026 - Clube Monte Líbano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tv-container">
+        
+        <!-- SLIDE 1: RANKING -->
+        <div id="slide-ranking" class="slide active">
+            <header class="header">
+                <div class="logo-box">
+                    <img src="logo.png" alt="Logo Clube Monte Líbano" class="logo-img">
+                </div>
+                <div class="header-title">
+                    <h1>QUADRO DO RANKING</h1>
+                    <h2>PERÍODO <span id="ranking-periodo"></span></h2>
+                </div>
+            </header>
+
+            <div class="week-bar">
+                <span id="ranking-semana"></span>
+            </div>
+
+            <table class="ranking-table">
+                <thead>
+                    <tr>
+                        <th class="col-num">Nº</th>
+                        <th class="col-ouro">OURO</th>
+                        <th class="col-prata">PRATA</th>
+                        <th class="col-bronze">BRONZE</th>
+                        <th class="col-cobre">COBRE</th>
+                    </tr>
+                </thead>
+                <tbody id="ranking-body"></tbody>
+            </table>
+
+            <footer class="legend-bar">
+                <div class="legend-item desafiante">DESAFIANTE</div>
+                <div class="legend-item desafiado">DESAFIADO</div>
+            </footer>
+        </div>
+
+        <!-- SLIDE 2: PRÓXIMOS JOGOS -->
+        <div id="slide-jogos" class="slide">
+            <header class="header">
+                <div class="logo-box">
+                    <img src="logo.png" alt="Logo Clube Monte Líbano" class="logo-img">
+                </div>
+                <div class="header-title">
+                    <h1>CONFRONTOS DA SEMANA</h1>
+                    <h2>PROGRAMAÇÃO DE JOGOS</h2>
+                </div>
+            </header>
+
+            <div class="week-bar">
+                <span id="jogos-semana">PROGRAMAÇÃO DE JOGOS</span>
+            </div>
+
+            <table class="jogos-table">
+                <thead>
+                    <tr>
+                        <th>CATEGORIA</th>
+                        <th>DESAFIANTE (AZUL)</th>
+                        <th>X</th>
+                        <th>DESAFIADO (BRANCO)</th>
+                        <th>MESA</th>
+                        <th>DIA / HORÁRIO</th>
+                    </tr>
+                </thead>
+                <tbody id="jogos-body"></tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
